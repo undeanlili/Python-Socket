@@ -6,7 +6,7 @@ import time
 import datetime
 client = socket.socket(socket.AF_INET,socket.SOCK_STREAM) #声明socket类型，同时生成链接对象
 host = 'nscjp120'
-client.connect((host,9090)) #建立一个链接，连接到本地的6969端口
+client.connect((host,9090)) #建立一个链接，连接到本地的9090端口
 while True:
     # addr = client.accept()
     # print '连接地址：', addr
